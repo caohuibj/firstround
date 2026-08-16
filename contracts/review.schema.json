@@ -1,0 +1,19 @@
+{
+  "name": "Review",
+  "status_values": ["ACTIVE", "RESOLVED"],
+  "type_values": ["KNOWLEDGE", "SKILL"],
+  "properties": {
+    "Name": { "type": "title" },
+    "Status": { "type": "select" },
+    "Type": { "type": "select" },
+    "Topics": { "type": "multi_select" },
+    "Evidence": {
+      "type": "relation",
+      "target": "Training Log",
+      "inverse_property": "Review"
+    },
+    "First Detected": { "type": "date" },
+    "Last Updated": { "type": "date" }
+  },
+  "body": "Long-term diagnosis text; Evidence covers supporting, improvement, resolution, and recurrence training; lifecycle rules are defined by project/02_REVIEW.md"
+}
