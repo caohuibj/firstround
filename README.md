@@ -45,7 +45,7 @@ project/03_NOTION.md
 
 ### Notion
 
-连接 Notion，并确保可以访问页面 `一试教练` 下的两个 Database：
+确保 Notion 已在 ChatGPT 中连接，并可由本 Project 的聊天访问页面 `一试教练` 下的两个 Database：
 
 ```text
 Training Log
