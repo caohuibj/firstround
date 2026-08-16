@@ -21,6 +21,5 @@
       "target": "Review",
       "inverse_property": "Evidence"
     }
-  },
-  "body": "Training analysis text generated according to project/01_TRAINING.md"
+  }
 }
