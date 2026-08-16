@@ -15,5 +15,5 @@
     "First Detected": { "type": "date" },
     "Last Updated": { "type": "date" }
   },
-  "body": "Long-term diagnosis text; creation and lifecycle rules are defined by project/02_REVIEW.md"
+  "body": "Long-term diagnosis text; Evidence covers supporting, improvement, resolution, and recurrence training; lifecycle rules are defined by project/02_REVIEW.md"
 }
