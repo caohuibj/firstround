@@ -81,4 +81,7 @@ project/
 contracts/
 ├── training.schema.json
 └── review.schema.json
+
+acceptance/
+└── SCENARIOS.md
 ```
