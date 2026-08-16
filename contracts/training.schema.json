@@ -1,0 +1,26 @@
+{
+  "name": "Training Log",
+  "type_values": ["FILL_SET", "CALC_SET", "PRACTICE"],
+  "issue_values": [
+    "KNOWLEDGE",
+    "RECOGNITION",
+    "SPEED",
+    "EXECUTION",
+    "TIME_STRATEGY",
+    "CHECKING"
+  ],
+  "properties": {
+    "Name": { "type": "title" },
+    "Date": { "type": "date" },
+    "Type": { "type": "select" },
+    "Source": { "type": "rich_text" },
+    "Topics": { "type": "multi_select" },
+    "Issues": { "type": "multi_select" },
+    "Review": {
+      "type": "relation",
+      "target": "Review",
+      "inverse_property": "Evidence"
+    }
+  },
+  "body": "Training review text generated according to project/01_TRAINING.md"
+}
